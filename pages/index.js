@@ -62,7 +62,7 @@ const Home = ({articles,home,bans,providers,bacagames,slotgames,navmenus}) => {
     );
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const queryString = qs.stringify({
     populate: ['ner','Image', 'author.avatar'],
     sort: ['id:desc'],
