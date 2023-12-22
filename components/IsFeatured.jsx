@@ -20,7 +20,6 @@ const IsFeatured = ({articles}) => {
                    alt={article.attributes.Image.data.attributes.name}
                   height="400"
                  width="400"
-                 priority={true}
                  sizes="100vw"
                    /> 
              </Link>
