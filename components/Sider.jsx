@@ -23,7 +23,6 @@ const Sider = ({bans}) => {
                  alt={ban.attributes.ner.data.attributes.name}
                  height="320"
                  width="500"
-                 priority={true}
                  /> 
               </SwiperSlide>
               <SwiperSlide> 
