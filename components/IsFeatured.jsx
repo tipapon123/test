@@ -52,7 +52,7 @@ const IsFeatured = ({articles}) => {
         </div>
         <span className="align-center items-center text-sm font-bold text-white px-4">
                       <span className="text-white">
-                          {moment(home.attributes.updatedAt).format("YYYY-MM-DD")}
+                          {moment(article.attributes.updatedAt).format("YYYY-MM-DD")}
                       </span>
                   </span>  
         </div> 
