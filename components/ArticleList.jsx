@@ -31,7 +31,6 @@ const ArticleList = ({articles}) => {
                                   width="0"
                                   height="0"
                                   sizes="100vw"
-                                  priority={true}
                                   style={{ width: '100%', height: 'auto' }}
                                   alt={article.attributes.author.data.attributes.avatar.data.attributes.formats.thumbnail.name}
                               />
