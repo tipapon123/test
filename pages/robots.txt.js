@@ -12,7 +12,6 @@ Allow: /images/
 Disallow: /_next/
 Disallow: /api/
 Disallow: /public/
-Crawl-delay: 5
 Sitemap: ${process.env.BASE_URL_DOMAIN}/sitemap.xml`);
         res.end();
     }
