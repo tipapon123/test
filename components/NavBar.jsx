@@ -20,7 +20,7 @@ function NavBar({navmenus}) {
              alt='Logo'
              width=""
              height=""
-            
+             priority={true}
              sizes="100vw"
              style={{ width: '100%', height: 'auto' }}
       />
